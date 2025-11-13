@@ -36,7 +36,6 @@ function gerarFaturaStr(fatura, pecas) {
   function getPeca(apresentacao) {
     return pecas[apresentacao.id];
   }
-  
   for (let apre of fatura.apresentacoes) {
     const peca = getPeca(apre);
 
